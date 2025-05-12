@@ -1299,3 +1299,51 @@ a:focus {
   max-height: 100%;
   object-fit: contain;
 }
+
+=========================================================================
+
+@media (max-width: 768px) {
+
+  .goldsponsor_logos,
+  .silversponsor_logos,
+  .bronzesponsor_logos,
+  .suppsponsor_logos,
+  .academicsponsor_logos,
+  .commsponsor_logos {
+    display: grid;
+    grid-template-columns: repeat(1, 90%);
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .goldsponsor_logo,
+  .silversponsor_logo,
+  .bronzesponsor_logo,
+  .suppsponsor_logo,
+  .academicsponsor_logo,
+  .commsponsor_logo {
+    width: 90%;
+    height: auto;
+  }
+
+  .goldsponsor_logo img,
+  .silversponsor_logo img,
+  .bronzesponsor_logo img,
+  .suppsponsor_logo img,
+  .academicsponsor_logo img,
+  .commsponsor_logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .goldsponsor_title,
+  .silversponsor_title,
+  .bronzesponsor_title,
+  .suppsponsor_title,
+  .academicsponsor_title,
+  .commsponsor_title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+}
